@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap');
+
+$font-titular: 'Bebas Neue', cursive;
+$font-secundaria: 'Nova Mono', monospace;
+
+$color-texto: rgba(180, 180, 149, 0.9);
+$color-texto-claro: #dddddd;
+$color-fondos: rgba(148, 121, 73, 0.1);
+$color-fondos2: rgba(103, 114, 115, 0.7);
+
+@mixin box {
+    box-shadow: (0 1px 0 $color-texto-claro);
+    font-family: $font-secundaria;
+    color: $color-texto-claro;
+    position: relative;
+    left: -5%;
+    margin-top: -17%;
+}
+

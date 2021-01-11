@@ -1,0 +1,37 @@
+#projectos {
+    height: 100vh;
+    margin-bottom: 50%;
+                /*-----------------QUERY----------------- */
+                @media only screen and (min-width: 600px) {
+                    margin-bottom: 70%;
+                }
+}
+
+#proyectos-titulo {
+    font-family: $font-titular;
+    color: $color-texto-claro;
+    font-size: 230%;
+        /*-----------------QUERY----------------- */
+        @media only screen and (min-width: 600px) {
+            font-size: 330%;
+            left: 1%;
+            width: 90%;
+        }
+}
+
+.proyecto-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+    width: 80%;
+    opacity: 75%;
+    border: groove;
+    border-radius: 5%;
+    border-width: 3px;
+    border-color: $color-fondos2;
+        /*-----------------QUERY----------------- */
+        @media only screen and (min-width: 600px) {
+            width: 60%;
+        }
+}

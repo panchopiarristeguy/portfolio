@@ -1,0 +1,77 @@
+#about {
+    height: 100vh;
+    margin-bottom: 80vh;
+                    /*-----------------QUERY----------------- */
+                    @media only screen and (min-width: 600px) {
+                        margin-bottom: 40%;
+                    }
+}
+
+#about-titulo {
+    color: $color-texto-claro;
+    font-family: $font-titular;
+    font-size: 230%;
+        /*-----------------QUERY----------------- */
+        @media only screen and (min-width: 600px) {
+            font-size: 330%;
+            left: 1%;
+            width: 90%;
+        }
+}
+
+#cara {
+    opacity: 66%;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+        /*-----------------QUERY----------------- */
+        @media only screen and (min-width: 600px) {
+            width: 30%;
+        }
+}
+
+#about-texto {
+    color: $color-texto;
+    background-color: $color-fondos;
+    font-family: $font-secundaria;
+    text-align: justify;
+    border-radius: 5%;
+    padding: 2%;
+        /*-----------------QUERY----------------- */
+        @media only screen and (min-width: 600px) {
+            width: 30%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+}
+
+#redes {
+    margin-top: 2%;
+                /*-----------------QUERY----------------- */
+                @media only screen and (min-width: 600px) {
+                    position: absolute;
+                    top: 455%;
+                    left: 30%;
+                }
+}
+
+.about-link {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+                /*-----------------QUERY----------------- */
+                @media only screen and (min-width: 600px) {
+                    display: block;
+                }
+}
+
+.about-img {
+    opacity: 70%;
+    width: 10%;
+            /*-----------------QUERY----------------- */
+            @media only screen and (min-width: 600px) {
+                width: 4%;
+            }
+}

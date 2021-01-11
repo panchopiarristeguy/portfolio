@@ -1,0 +1,30 @@
+#navbar{
+    font-family: $font-secundaria;
+    
+    font-size: 16px;
+    opacity: 85%;
+    position: fixed;
+    top: 8%;
+    right: 0%;
+    z-index: 100;
+    margin-right: 2%;
+        /*-----------------QUERY----------------- */
+        @media only screen and (min-width: 600px) {
+            font-size: 18px;
+            top: 13%;
+        }
+}
+
+.nav-link {
+    color: $color-texto-claro;
+}
+
+ul { 
+    text-decoration: none;
+    text-align: right;
+    list-style-type: none;
+}
+
+li {
+    margin-top: 3%;
+}

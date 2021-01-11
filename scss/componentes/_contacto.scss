@@ -1,0 +1,85 @@
+#contacto {
+    height: 100vh;
+}
+
+#contacto-titulo {
+    font-family: $font-titular;
+    color: $color-texto-claro;
+    font-size: 230%;
+            /*-----------------QUERY----------------- */
+            @media only screen and (min-width: 600px) {
+                font-size: 330%;
+                left: 1%;
+                width: 90%;
+            }
+}
+
+#contacto-texto {
+    font-family: $font-secundaria;
+    color: $color-texto-claro;
+    text-align: left;
+    margin-bottom: 14%;
+    opacity: 85%;
+    width: 70%;
+}
+
+/* -------------------IMPUTS------------------- */
+
+#form-contacto {
+    font-family: $font-secundaria;
+}
+
+#form {
+    margin-top: -10%;
+}
+
+input[type=text] {
+    color: $color-texto-claro;
+    background-color: transparent;
+    border: groove;
+    border-color: $color-texto-claro;
+    border-radius: 4px;
+    font-size: 15px;
+    display: block;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 40%;
+                /*-----------------QUERY----------------- */
+                @media only screen and (min-width: 600px) {
+                    width: 20%;
+                }
+}
+
+#textArea {
+    color: $color-texto-claro;
+    background-color: transparent;
+    border: groove;
+    border-color: $color-texto-claro;
+    border-radius: 4px;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+                /*-----------------QUERY----------------- */
+                @media only screen and (min-width: 600px) {
+                    width: 45%;
+                    display: inline;
+                    margin-left: 5%;
+                }
+}
+  
+input[type=submit] {
+    background-color: transparent;
+    border: groove;
+    border-color: $color-texto-claro;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: $font-secundaria;
+    color: $color-texto-claro;
+    margin-top: 2%;
+    margin-left: 5%;
+                /*-----------------QUERY----------------- */
+                @media only screen and (min-width: 600px) {
+                    display: block;
+                    margin-left: 45%;
+                }
+}

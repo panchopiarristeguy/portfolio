@@ -1,0 +1,39 @@
+#welcome {
+    height: 100vh;
+}
+
+#piarristeguy {
+    font-family: $font-titular;
+    color: $color-texto-claro;
+    width: 70%;
+    font-size: 250%;
+    position: absolute;
+    left: 0%; 
+    top: 5%;
+    opacity: 80%;
+    padding: 0%;
+    margin-left: 1%;
+        /*-----------------QUERY----------------- */
+        @media only screen and (min-width: 600px) {
+            font-size: 450%;
+        }
+}
+
+#dyd {
+    font-family: $font-titular;
+    font-style: italic;
+    color: $color-texto-claro;
+    font-size: 100%;
+    position: absolute;
+    top: 16%;
+    left: 0%;
+    margin-top: 1%;
+    margin-left: 1%;
+    opacity: 55%;
+    padding: 0%;
+        /*-----------------QUERY----------------- */
+        @media only screen and (min-width: 600px) {
+            font-size: 180%;
+            top: 24%;
+            }
+}

@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap");
+body {
+  background-color: #2c373c;
+  background-image: url("./imagenes/fondo-phone.png");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /*-----------------QUERY----------------- */
+}
+body .underline {
+  box-shadow: 0 1px 0 #dddddd;
+  font-family: "Nova Mono", monospace;
+  color: #dddddd;
+  position: relative;
+  left: -5%;
+  margin-top: -17%;
+}
+body .espacio {
+  height: 200%;
+}
+body .margen {
+  height: 100px;
+}
+@media only screen and (min-width: 600px) {
+  body {
+    background-image: url("./imagenes/fondo-pc.png");
+  }
+}
+
+#ingles {
+  color: #dddddd;
+  font-family: "Nova Mono", monospace;
+  font-style: italic;
+  font-size: 13px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  margin-top: 1%;
+  margin-left: 1%;
+  opacity: 85%;
+}
+
+#navbar {
+  font-family: "Nova Mono", monospace;
+  font-size: 16px;
+  opacity: 85%;
+  position: fixed;
+  top: 8%;
+  right: 0%;
+  z-index: 100;
+  margin-right: 2%;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  #navbar {
+    font-size: 18px;
+    top: 13%;
+  }
+}
+
+.nav-link {
+  color: #dddddd;
+}
+
+ul {
+  text-decoration: none;
+  text-align: right;
+  list-style-type: none;
+}
+
+li {
+  margin-top: 3%;
+}
+
+#welcome {
+  height: 100vh;
+}
+
+#piarristeguy {
+  font-family: "Bebas Neue", cursive;
+  color: #dddddd;
+  width: 70%;
+  font-size: 250%;
+  position: absolute;
+  left: 0%;
+  top: 5%;
+  opacity: 80%;
+  padding: 0%;
+  margin-left: 1%;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  #piarristeguy {
+    font-size: 450%;
+  }
+}
+
+#dyd {
+  font-family: "Bebas Neue", cursive;
+  font-style: italic;
+  color: #dddddd;
+  font-size: 100%;
+  position: absolute;
+  top: 16%;
+  left: 0%;
+  margin-top: 1%;
+  margin-left: 1%;
+  opacity: 55%;
+  padding: 0%;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  #dyd {
+    font-size: 180%;
+    top: 24%;
+  }
+}
+
+#projectos {
+  height: 100vh;
+  margin-bottom: 50%;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  #projectos {
+    margin-bottom: 70%;
+  }
+}
+
+#proyectos-titulo {
+  font-family: "Bebas Neue", cursive;
+  color: #dddddd;
+  font-size: 230%;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  #proyectos-titulo {
+    font-size: 330%;
+    left: 1%;
+    width: 90%;
+  }
+}
+
+.proyecto-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5%;
+  width: 80%;
+  opacity: 75%;
+  border: groove;
+  border-radius: 5%;
+  border-width: 3px;
+  border-color: rgba(103, 114, 115, 0.7);
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  .proyecto-img {
+    width: 60%;
+  }
+}
+
+#about {
+  height: 100vh;
+  margin-bottom: 80vh;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  #about {
+    margin-bottom: 40%;
+  }
+}
+
+#about-titulo {
+  color: #dddddd;
+  font-family: "Bebas Neue", cursive;
+  font-size: 230%;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  #about-titulo {
+    font-size: 330%;
+    left: 1%;
+    width: 90%;
+  }
+}
+
+#cara {
+  opacity: 66%;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  #cara {
+    width: 30%;
+  }
+}
+
+#about-texto {
+  color: rgba(180, 180, 149, 0.9);
+  background-color: rgba(148, 121, 73, 0.1);
+  font-family: "Nova Mono", monospace;
+  text-align: justify;
+  border-radius: 5%;
+  padding: 2%;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  #about-texto {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#redes {
+  margin-top: 2%;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  #redes {
+    position: absolute;
+    top: 455%;
+    left: 30%;
+  }
+}
+
+.about-link {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  .about-link {
+    display: block;
+  }
+}
+
+.about-img {
+  opacity: 70%;
+  width: 10%;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  .about-img {
+    width: 4%;
+  }
+}
+
+#contacto {
+  height: 100vh;
+}
+
+#contacto-titulo {
+  font-family: "Bebas Neue", cursive;
+  color: #dddddd;
+  font-size: 230%;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  #contacto-titulo {
+    font-size: 330%;
+    left: 1%;
+    width: 90%;
+  }
+}
+
+#contacto-texto {
+  font-family: "Nova Mono", monospace;
+  color: #dddddd;
+  text-align: left;
+  margin-bottom: 14%;
+  opacity: 85%;
+  width: 70%;
+}
+
+/* -------------------IMPUTS------------------- */
+#form-contacto {
+  font-family: "Nova Mono", monospace;
+}
+
+#form {
+  margin-top: -10%;
+}
+
+input[type=text] {
+  color: #dddddd;
+  background-color: transparent;
+  border: groove;
+  border-color: #dddddd;
+  border-radius: 4px;
+  font-size: 15px;
+  display: block;
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 40%;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  input[type=text] {
+    width: 20%;
+  }
+}
+
+#textArea {
+  color: #dddddd;
+  background-color: transparent;
+  border: groove;
+  border-color: #dddddd;
+  border-radius: 4px;
+  width: 80%;
+  margin-left: 5%;
+  margin-top: 5%;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  #textArea {
+    width: 45%;
+    display: inline;
+    margin-left: 5%;
+  }
+}
+
+input[type=submit] {
+  background-color: transparent;
+  border: groove;
+  border-color: #dddddd;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: "Nova Mono", monospace;
+  color: #dddddd;
+  margin-top: 2%;
+  margin-left: 5%;
+  /*-----------------QUERY----------------- */
+}
+@media only screen and (min-width: 600px) {
+  input[type=submit] {
+    display: block;
+    margin-left: 45%;
+  }
+}
