@@ -3,18 +3,18 @@
 <head>
     <link rel="stylesheet" type="text/css" href="./css/main.css"/>
     <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>Portfolio Francisco Piarristeguy</title>
-    <script src="jquery-3.5.1.min.js"></script>
 </head>
 <body>
     <!-------------------------HEADER------------------------->
     <header>
-    <a id="ingles" href="index.html">Español</a>
+    <a id="ingles" href="./ingles.html">English</a>
     <div id="navbar">    
         <ul>
-        <li><a class="nav-link" id="link1" href="#projectos">&nbsp;&nbsp;&nbsp;&nbsp;Proyects&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-        <li><a class="nav-link" id="link2" href="#about">&nbsp;&nbsp;&nbsp;&nbsp;About me&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-        <li><a class="nav-link" id="link3" href="#contacto">&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a class="nav-link" id="link1" href="#projectos">Proyects</a></li>
+        <li><a class="nav-link" id="link2" href="#about">About me</a></li>
+        <li><a class="nav-link" id="link3" href="#contacto">Contact</a></li>
         </ul>
     </div>
     </header>  
@@ -25,18 +25,14 @@
     </div>
     <!-------------------------PROYECTOS------------------------->
     <div id="projectos">
-        <p id="espacio">&nbsp;</p>
         <h2 id="proyectos-titulo">Proyects</h2>
-        <p class="underline" id="underline1">&nbsp;</p>
-        <img src="css/imagenes/riki.png" id="riki-imagen">
-        <a href="https://www.google.com/" id="riki-text">Life and Work<br>of Ricky Espinosa</a>
-        <p class="margen">&nbsp;</p>
+        <a href="https://panchopiarristeguy.github.io/sintetizadores-Hurlingham/"><img src="css/imagenes/sintes.png" id="sintes-imagen" class="proyecto-img"></a>
+        <a href="https://panchopiarristeguy.github.io/lectura-informativa-RickyEspinosa/"><img src="css/imagenes/riki.png" id="riki-imagen" class="proyecto-img"></a>
+        <a href="https://panchopiarristeguy.github.io/tributo-Lautr-amont/"><img src="css/imagenes/lou.png" id="lou-imagen" class="proyecto-img"></a>
     </div>
     <!-------------------------ABOUT------------------------->
     <div id="about">
-        <p class="espacio">&nbsp;</p>
         <h2 id="about-titulo">About me</h2>
-        <p class="underline" id="underline2">&nbsp;</p>
         <img src="css/imagenes/cara.png" id="cara">
         <div id="about-texto">
         <p>
@@ -45,34 +41,31 @@
              creating the fantasy that my intermediation never existed.
             </p>
             <p>
-            I fluently handle HTML5, CSS, Sass, JavaScript, Photoshop, Gimp, Git & GitHub.
+                I fluently handle HTML5, CSS, Sass, JavaScript, Photoshop, Gimp, Git & GitHub.
             </p>
             <p>
-            In turn, I seek to incorporate new tools in each job.
+                I seek to incorporate new tools in each job.
             </p>
         </div>
-        <a class="about-link" href="https://github.com/panchopiarristeguy" target="_blank" id="profile-link"><img id="github" src="css/imagenes/github.png"></a>
-        <a class="about-link" href="https://www.linkedin.com/in/francisco-piarristeguy-web/" target="_blank"><img id="linkedin" src="css/imagenes/linkedin.png"></a>
-        <a class="about-link" href="https://www.instagram.com/piarristeguy_web_work/" target="_blank"><img id="ig" src="css/imagenes/ig.png"></a>
-        <p class="margen">&nbsp;</p>
+        <div id="redes">
+            <a class="about-link" href="https://github.com/panchopiarristeguy" target="_blank" id="profile-link"><img id="github" src="css/imagenes/github.png" class="about-img"></a>
+            <a class="about-link" href="https://www.linkedin.com/in/francisco-piarristeguy-web/" target="_blank"><img id="linkedin" src="css/imagenes/linkedin.png" class="about-img"></a>
+            <a class="about-link" href="https://www.instagram.com/piarristeguy_web_work/" target="_blank"><img id="ig" src="css/imagenes/ig.png" class="about-img"></a>
+        </div>
     </div>
     <!-------------------------CONTACTO------------------------->
     <div id="contacto">
-        <p id="espacio">&nbsp;</p>
         <h2 id="contacto-titulo">Contact</h2>
-        <p class="underline" id="underline3">&nbsp;</p>
         <p id="contacto-texto">If you want to communicate you can write to me right here</p>
+        <div id="form">
         <form action="piarristeguy.pancho@gmail.com" method="get" id="form-contacto">
-            <input type="text" name="nombre" id="nombre" placeholder="Your name"/>
-            <input type="text" name="email" id="email" placeholder="Your email"/>
-            <textarea input type="text" name="mensaje" id="textArea">
+            <input type="text" name="nombre" id="nombre" placeholder="Su nombre"/>
+            <input type="text" name="email" id="email" placeholder="Su email"/>
+            <textarea input type="text" name="mensaje" id="textArea" rows="4" cols="50" placeholder="Su mensaje">
             </textarea>
             <input type="submit" name="submit" value="Send"/>
         </form>
-        <p class="margen">&nbsp;</p>
+        </div>
     </div>
-    <!-------------------------SCRIPTS------------------------->
-    <script src="jquery.waypoints.min.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>

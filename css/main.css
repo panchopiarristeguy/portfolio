@@ -60,10 +60,10 @@ body .margen {
 
 .nav-link {
   color: #dddddd;
+  text-decoration: none;
 }
 
 ul {
-  text-decoration: none;
   text-align: right;
   list-style-type: none;
 }
